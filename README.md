@@ -23,3 +23,8 @@ Arithemetic operators include addition,subtraction,multiplication,division and m
 Logical operators are used to determine the logic between variables or values.
 
 Comparison operators are used to compare two values or variables.They either return true or false based on the result of the comparison.
+## 4. Bitwise Operators
+### Aim
+To study and implement C++ Bitwise operators
+### Theory
+Bitwise operators in C++ are used to perform operations on individual bits of integer data types. These operators are crucial for low-level programming, such as system programming, embedded systems, and optimizing certain algorithms. 
