@@ -1,12 +1,14 @@
+//Name:Tanay Shivankar
+//Prn:23070123163
 #include <iostream>
 using namespace std;
 int main() {
-     int a1;
-     float a2;
+     float a1;
+     int a2;
       char a3;
-      short int a4;
+      double a4;
       long int a5;
-      double a6;
+      short int a6;
     
 
     cout << "Size of a1: " << sizeof(a1) << "byte"<< endl;
@@ -22,6 +24,6 @@ int main() {
 Size of a1: 4byte
 Size of a2: 4byte
 Size of a3: 1byte
-Size of a4: 2byte
+Size of a4: 8byte
 Size of a5: 4byte
-Size of a6: 8byte*/
+Size of a6: 2byte*/
