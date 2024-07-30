@@ -37,3 +37,5 @@ Learnt how to use arithimetic,comparison and logical operators in C++.
 To study and implement C++ Bitwise operators
 ### Theory
 Bitwise operators in C++ are used to perform operations on individual bits of integer data types. These operators are crucial for low-level programming, such as system programming, embedded systems, and optimizing certain algorithms. 
+### Conclusion 
+Learnt the use of bitwise operators.
