@@ -5,9 +5,15 @@ To download and install VS Code and make a hello world program.
 ### Apparatus
 VS Code
 ### Theory
-VS Code is a free, open-source code editor developed by Microsoft.We are using it to learn C++.
+VS Code is a free, open-source code editor developed by Microsoft.We are using it to learn C++.VS Code is designed to be highly extensible and customizable. The editor provides a rich API for extension developers, enabling them to create plugins that add new features, languages, themes, debuggers, and more. This modular approach allows users to tailor the editor to their specific needs and preferences.
+### Downloading and Installing Visual Studio Code
+**Visual Studio Code (VS Code)** is a lightweight, extensible, open-source code editor developed by Microsoft. It supports various programming languages, including C++, and provides features like IntelliSense, debugging, and Git integration.
 
-
+#### Steps to Download and Install VS Code:
+1. **Visit the Official Website**: Go to the [Visual Studio Code website](https://code.visualstudio.com/).
+2. **Download the Installer**: Select the appropriate installer for your operating system (Windows, macOS, or Linux).
+3. **Run the Installer**: Follow the on-screen instructions to install VS Code.
+4. **Launch VS Code**: Open the installed application to start coding.
 ### Code
 ```
 //Name:Tanay Shivankar
@@ -21,7 +27,6 @@ return 0;
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/1751a742-6d63-42f0-8200-d4ec782d0d2d)
-
 ### Conclusion
 downloaded and installed VS Code and performed simple program.
 ## 2. Data Types in C++
@@ -34,6 +39,8 @@ In C++, data types are used to define the type of data that a variable can hold.
 int-integer type
 char-character type
 float-single precision floating type. etc.
+These types come in signed and unsigned variants, enabling both positive and negative values, or solely non-negative values, respectively.
+Each type of data takes up different amount of bytes.
 ### Code
 ```
 //Name:Tanay Shivankar
@@ -150,6 +157,32 @@ To study and implement C++ Bitwise operators.
 ### Apparatus
 VS Code
 ### Theory
-Bitwise operators in C++ are used to perform operations on individual bits of integer data types. These operators are crucial for low-level programming, such as system programming, embedded systems, and optimizing certain algorithms. 
+Bitwise operators in C++ operate on the binary representation of integers. They include the bitwise AND (`&`), which returns a bit set to 1 if both corresponding bits of the operands are 1; the bitwise OR (`|`), which returns a bit set to 1 if at least one of the corresponding bits is 1; the bitwise XOR (`^`), which returns a bit set to 1 if only one of the corresponding bits is 1; the bitwise NOT (`~`), which inverts all bits of the operand; the left shift (`<<`), which shifts bits to the left and fills with zeros; and the right shift (`>>`), which shifts bits to the right. These operators are used for low-level programming tasks, such as setting, clearing, and toggling specific bits, and for performing fast arithmetic operations. Understanding bitwise operators is essential for tasks that require direct manipulation of data at the bit level, such as system programming, graphics, and encryption.
+### Code
+```
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,a1,a2,a3,a4,a5,a6;
+
+    cout<<"Enter the value for A"<<endl;
+    cin>>a;
+    cout<<"Enter the value for B"<<endl;
+    cin>>b;
+    a1=a&b;   
+    a2=a|b;    
+    a3=a^b;   
+    a4=~b;     
+    a5=a<<2;   
+    a6=a>>2; 
+    cout<<"AND of the entered value is "<<a1<<endl<<endl;
+    cout<<"OR of the entered value is "<<a2<<endl<<endl;
+    cout<<"XOR of the entered value is "<<a3<<endl<<endl;
+    cout<<"NOT of B is "<<a4<<endl<<endl;
+    cout<<"LEFT SHIFT of A by 2 is "<<a5<<endl<<endl;
+    cout<<"RIGHT SHIFT of A by 2 is "<<a6<<endl<<endl;
+    return 0;
+}
+```
 ### Conclusion 
 Learnt the use of bitwise operators.
