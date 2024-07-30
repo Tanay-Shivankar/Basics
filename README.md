@@ -7,16 +7,16 @@ VS Code is a free, open-source code editor developed by Microsoft.We are using i
 
 
 ### Code
+```
 //Name:Tanay Shivankar
-
 //Prn:23070123163
-
 #include<iostream>
 using namespace std;
 int main(){
     cout<<"Hello World";
 return 0;
-} 
+}
+```
 ## Output
 ![image](https://github.com/user-attachments/assets/1751a742-6d63-42f0-8200-d4ec782d0d2d)
 
