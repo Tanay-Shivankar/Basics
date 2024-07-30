@@ -4,6 +4,20 @@
 To download and install VS Code and make a hello world program
 ### Theory
 VS Code is a free, open-source code editor developed by Microsoft.We are using it to learn C++.
+
+
+### Code
+//Name:Tanay Shivankar
+//Prn:23070123163
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Hello World";
+return 0;
+} 
+## Output
+![image](https://github.com/user-attachments/assets/1751a742-6d63-42f0-8200-d4ec782d0d2d)
+
 ### Conclusion
 downloaded and installed VS Code and performed simple program.
 ## 2. Data Types in C++
